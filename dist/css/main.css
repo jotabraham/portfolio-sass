@@ -171,6 +171,7 @@
 
 .about__bio-image p {
   margin-bottom: 2rem;
+  font-size: 0.80rem;
 }
 
 .about__bio {
@@ -202,6 +203,10 @@
 
 .about .jobs__job h6 {
   margin: 0.3rem 0;
+}
+
+.about .jobs__job p {
+  font-size: 0.8rem;
 }
 
 .about .social-icons {
@@ -354,8 +359,14 @@
   .nav .menu-nav__link {
     font-size: 1.5rem;
   }
+  .about__bio-image p {
+    font-size: 1rem;
+  }
   .about__bio {
     font-size: 1.5rem;
+  }
+  .about .jobs__job p {
+    font-size: 1rem;
   }
   .projects__bio-image {
     height: 40vh;

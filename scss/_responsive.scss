@@ -24,9 +24,22 @@
       }
    }
 
-   .about__bio {
-      font-size: 1.5rem;
+   .about {
+      &__bio-image {
+         p {
+            font-size: 1rem;
+         }
+      }
 
+      &__bio {
+         font-size: 1.5rem;
+      }
+
+      .jobs__job {
+         p {
+            font-size: 1rem;
+         }
+      }
    }
 
    .projects {
